@@ -44,7 +44,7 @@ def detect():
         dclass = results.xywh[0][0][5]
 
         if dconf.item() > 0.85 and dclass.item() == 16.0:
-            p = vlc.MediaPlayer("fart meme sound.wav")
+            p = vlc.MediaPlayer("your_sound.wav")
             p.play()
             counter += 1
 
